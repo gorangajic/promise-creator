@@ -1,0 +1,18 @@
+{
+  "name": "promise-creator",
+  "version": "0.0.1",
+  "description": "small helper function to easly create new promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node test.js"
+  },
+  "author": "Goran Gajic <fero.null@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "bluebird": "^3.0.0"
+  },
+  "peerDependencies": {
+    "bluebird": "^3.0.0"
+  }
+}
