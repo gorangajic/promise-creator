@@ -3,11 +3,14 @@
 > small helper function to easly create new promises
 
 ### instalation
+```
 npm install promise-creator --save
+```
 
 ### usage
 
-```
+```javascript
+import promiseCreator from 'promise-creator';
 let {resolve, reject, promise} = promiseCreator();
 return promise;
 ```
