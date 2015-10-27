@@ -1,6 +1,6 @@
 {
   "name": "promise-creator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "small helper function to easly create new promises",
   "main": "index.js",
   "scripts": {
