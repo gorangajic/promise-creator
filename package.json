@@ -2,9 +2,11 @@
   "name": "promise-creator",
   "version": "0.0.2",
   "description": "small helper function to easly create new promises",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "jsnext:main": "index.js",
   "scripts": {
-    "test": "babel-node test.js"
+    "test": "babel-node test.js",
+    "build": "babel index.js --out-dir lib"
   },
   "author": "Goran Gajic <fero.null@gmail.com>",
   "license": "MIT",
