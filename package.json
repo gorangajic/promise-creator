@@ -1,6 +1,6 @@
 {
   "name": "promise-creator",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "small helper function to easly create new promises",
   "main": "lib/promise-creator.js",
   "jsnext:main": "promise-creator.js",
