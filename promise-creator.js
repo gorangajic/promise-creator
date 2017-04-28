@@ -1,5 +1,5 @@
 
-export default function promiseCreator() {
+module.exports = function promiseCreator() {
     var resolve;
     var reject;
     var promise = new Promise(function(res, rej){
@@ -10,5 +10,5 @@ export default function promiseCreator() {
         resolve: resolve,
         reject: reject,
         promise: promise
-    }
+    };
 }

@@ -1,4 +1,4 @@
-import promiseCreator from './promise-creator';
+const promiseCreator = require('./promise-creator');
 
 function delay(ms) {
     let {resolve, reject, promise} = promiseCreator();

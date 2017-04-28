@@ -2,17 +2,12 @@
   "name": "promise-creator",
   "version": "1.0.1",
   "description": "small helper function to easly create new promises",
-  "main": "lib/promise-creator.js",
-  "jsnext:main": "promise-creator.js",
+  "main": "promise-creator.js",
   "scripts": {
-    "test": "babel-node test.js",
-    "build": "babel promise-creator.js --out-dir lib"
+    "test": "node test.js"
   },
   "author": "Goran Gajic <fero.null@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "babel": "^5.8.29"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/gorangajic/promise-creator.git"
