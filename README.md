@@ -11,7 +11,8 @@ npm install promise-creator --save
 
 ```javascript
 import promiseCreator from 'promise-creator';
-let {resolve, reject, promise} = promiseCreator();
+
+const { resolve, reject, promise } = promiseCreator();
 return promise;
 ```
 
@@ -19,11 +20,12 @@ return promise;
 
 ```javascript
 function delay(ms) {
-    let {resolve, reject, promise} = promiseCreator();
+    const {resolve, reject, promise} = promiseCreator();
 
     setTimeout(function() {
         resolve();
-    }, ms)
+    }, ms);
+
     return promise;
 }
 
