@@ -1,4 +1,3 @@
-var Promise = require('bluebird');
 
 export default function promiseCreator() {
     var resolve;
