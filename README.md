@@ -1,5 +1,7 @@
 ### Promise creator
 
+[![Build Status](https://semaphoreci.com/api/v1/gorangajic/promise-creator/branches/master/badge.svg)](https://semaphoreci.com/gorangajic/promise-creator)
+
 > small helper function to easly create new promises
 
 ### instalation
